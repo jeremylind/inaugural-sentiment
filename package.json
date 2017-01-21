@@ -1,0 +1,17 @@
+{
+  "name": "textanalysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json2csv": "^3.7.3",
+    "ncr-sentiment": "git://github.com/jeremylind/ncr-sentiment.git#develop"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
