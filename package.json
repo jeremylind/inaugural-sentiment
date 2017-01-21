@@ -6,7 +6,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "json2csv": "^3.7.3",
-    "ncr-sentiment": "git://github.com/jeremylind/ncr-sentiment.git#develop"
+    "nrc-sentiment": "git://github.com/jeremylind/nrc-sentiment.git#develop"
   },
   "devDependencies": {},
   "scripts": {

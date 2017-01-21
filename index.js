@@ -1,4 +1,4 @@
-var sentiment = require('ncr-sentiment');
+var sentiment = require('nrc-sentiment');
 var json2csv = require('json2csv');
 var fs = require('fs');
 
@@ -13,10 +13,10 @@ for (var i = 0; i < speeches.length; i++) {
 	speech.perNegative = speech.sentiment.negative.length / speech.count;
 	speech.positiveWords = JSON.stringify(speech.sentiment.positive);
 	speech.negativeWords = JSON.stringify(speech.sentiment.negative);
-	speech.afinnScore = speech.sentiment.comparative;
+	speech.sentimentScore = speech.sentiment.comparative;
 }
 
-var fields = ['title', 'president', 'year', 'count', 'matched', 'perPositive', 'perNegative', 'positiveWords', 'negativeWords', 'afinnScore'];
+var fields = ['title', 'president', 'year', 'count', 'matched', 'perPositive', 'perNegative', 'positiveWords', 'negativeWords', 'sentimentScore'];
 
 var csv = json2csv({ data: speeches, fields: fields });
  
