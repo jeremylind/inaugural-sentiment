@@ -9,7 +9,9 @@ Raw data can be found in data.json. Processed data can be found in presidential-
 
 ### Installation
 ```bash
-npm install git://github.com/jeremylind/inaugural-sentiment
+git clone https://github.com/jeremylind/inaugural-sentiment
+cd inaugural-sentiment
+npm install
 ```
 
 ### Usage
